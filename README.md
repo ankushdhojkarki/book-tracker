@@ -1,4 +1,5 @@
-## Book Tracker: A Django ORM Practice Project 📚This project is a simple web application built with Django, specifically designed for new developers to master the fundamentals and advanced techniques of the Django ORM in a practical, non-shell environment.It allows users to track books and authors, providing hands-on experience with core database interactions.
+## Book Tracker: A Django ORM Practice Project 📚
+This project is a simple web application built with Django, specifically designed for new developers to master the fundamentals and advanced techniques of the Django ORM in a practical, non-shell environment.It allows users to track books and authors, providing hands-on experience with core database interactions.
 
 ## Key Learning Objectives (ORM Focus)The primary goal of this project is to implement and understand the following ORM concepts:
 1. CRUD Operations: Creating, Retrieving, Updating, and Deleting objects (Authors and Books).
