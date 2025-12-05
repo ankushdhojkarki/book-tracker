@@ -7,7 +7,7 @@ This project is a simple web application built with Django, specifically designe
 3. Relationships (Foreign Keys): Querying across related models (e.g., getting all books by a specific author).
 4. Performance Optimization: Using $select\_related() and $prefetch\_related() to solve the N+1 query problem.
 5. Aggregation & Annotation: Calculating statistics like total books, average publication year, and counting comments per book using $Count(), $Avg(), and `$Annotate()$.
-6. 
+
 ## Models OverviewThe application is structured around two primary models:
 1. Author: Stores author details (name, bio).
 2. Book: Stores book details (title, publication_year, $ForeignKey$ to Author, and status - Read/Reading/Want to Read).
