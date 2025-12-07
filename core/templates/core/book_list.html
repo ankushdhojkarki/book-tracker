@@ -1,0 +1,14 @@
+<h1>Book Tracker - All Books</h1>
+
+{% for book in books %}
+    <hr>
+    <h2>{{ book.title }}</h2>
+    <p>
+        Author: {{book.author.name}} <br>
+        Publication Year: {{ book.publication_year|default:"N/A" }}<br>
+        Price: {{book.price}}<br>
+        Genre: {{Genre}}<br>
+        Status: {{ book.get_status_display }}** </p>
+{% empty %}
+    <p>No books found. Add some!</p>
+{% endfor %}
